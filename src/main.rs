@@ -85,7 +85,7 @@ fn convert(matches: &ArgMatches, input: &String) {
         }
     }
 
-    println!("{}", conv.convert(input))
+    print!("{}", conv.convert(input))
 }
 
 #[cfg(test)]
